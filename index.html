@@ -1,33 +1,29 @@
 <html>
 
 <head>
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link href="style/style.css" rel="stylesheet" />
-    <link rel="shortcut icon" type="imagex/png" href="./img/gotas.png">
+    <link rel="shortcut icon" href="img/gotas.png" type="image/x-icon">
+    <script src="script/script.js" defer></script>
     <title>Água potável e saneamento</title>
 </head>
 
 <body>
-
     <header>
         <div class="center">
+            <div class="div-logo">
+                <img class="img-logo" src="img/logo.png" alt="">
+            </div>
             <div class="logo">
                 <h2>Água Potável e</h2>
                 <h2>Saneamento</h2>
             </div><!--logo-->
             <div class="menu">
-                <a href="#">
-                    Home
-                </a>
-                <a href="#">
+                <a id="sobre" href="#">
                     Sobre
                 </a>
-                <a href="#">
-                    Contato
-                </a>
-                <a class="btn-menu" href="https://brasil.un.org/pt-br" target="_blank">
+                <a class="btn-menu" href="https://brasil.un.org/pt-br/sdgs/6" target="_blank">
                     Saiba Mais
                 </a>
                 <nav class="social">
@@ -128,7 +124,7 @@
     <section class="sobre-empreendedor">
         <div class="center">
             <div class="sobre-empreendedor-content">
-                <h2>Importância da água potável</h2>
+                <h2 id="titulo-imp">Importância da água potável</h2>
                 <h3>Saúde humana</h3><br>
                 <ul>
                     <p> A água potável é essencial para a manutenção da saúde humana. O consumo regular de água limpa é
@@ -161,7 +157,7 @@
         <div class="center">
 
             <div class="sobre-empreendedor-content">
-                <h2>importância do saneamento básico</h2>
+                <h2 id="titulo-imp">importância do saneamento básico</h2>
                 <h3>Saúde Pública</h3><br>
                 <ul>
                     <p>O saneamento básico é essencial para prevenir a propagação de doenças infecciosas.
@@ -231,6 +227,26 @@
 
 
     </script>
+
+    <footer>
+        <div class="footer">
+            <div class="sobre-footer">
+                <p>
+                <h2 id="titulo-imp">Sobre</h2>
+                Acreditamos que o saneamento adequado é um direito essencial para todos e
+                desempenha um papel crucial na prevenção de doenças, promoção da higiene e
+                preservação do meio ambiente. Navegue por nosso conteúdo para compreender
+                melhor como a melhoria das condições sanitárias e o acesso à água de
+                qualidade contribuem diretamente para o bem-estar individual e coletivo.
+                </p>
+            </div>
+
+            <button id="btn-topo">
+            </button>
+
+        </div><!--center-->
+
+    </footer>
 </body>
 
 </html>
